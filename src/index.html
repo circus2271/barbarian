@@ -13,6 +13,21 @@
   background: lightblue;
     padding: 1.25rem 2rem;
   }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .row > span:first-of-type {
+    font-size: 2rem;
+  }
+
+  .row > span:last-of-type {
+      padding-inline: 1.5rem;
+      display: flex;
+      gap: .5rem;
+      font-size: 1.15rem;
+  }
 </style>
 <body>
   <div class="page">
@@ -33,9 +48,26 @@
       Между нотами Си и До расстояние полтона
     </p>
 
-    <p>
-      До Ре Ми Фа Соль Ля Си До
-      1тон 1тон 1/2 тона 1 тон 1 тон 1/2 тона
+    <p class="row">
+      <span>
+        <span>До</span>
+        <span>Ре</span>
+        <span>Ми</span>
+        <span>Фа</span>
+        <span>Соль</span>
+        <span>Ля</span>
+        <span>Си</span>
+        <span>До</span>
+      </span>
+      <span>
+        <span>1тон</span>
+        <span>1тон</span>
+        <span>1/2 тона</span>
+        <span>1 тон</span>
+        <span>1 тон</span>
+        <span>1 тон</span>
+        <span>1/2 тона</span>
+      </span>
     </p>
 
     <p>
