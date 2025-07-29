@@ -1,0 +1,9 @@
+{
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    "target": "es2019",
+    "module": "es2022",
+    "moduleResolution": "Node"
+  }
+}
+
